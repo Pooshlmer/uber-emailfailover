@@ -14,6 +14,11 @@ To make it work, fill in these lines:
 <property name="mailgunServer" value=""/>
 in src/main/webapp/WEB-INF/appengine-web.xml.
 
+It uses Java/JSP and hosted on Google App Engine. I chose this because
+I wanted to try Google App Engine and didn't want to learn a language
+at the same time with the deadline. Most of the code is mine, some of
+the config files were seeded by the setup for Google.
+
 It is fairly simple overall. It only has the single front end page with
 basic validation client side using validate.js. I don't bother with much 
 validation on the back end as I am just submitting strings to a service, 
