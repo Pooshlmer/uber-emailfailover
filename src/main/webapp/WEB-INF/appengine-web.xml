@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+    <application>innate-sunrise-819</application>
+    <version>${appengine.app.version}</version>
+    <threadsafe>true</threadsafe>
+    
+    <system-properties>
+        <property name="java.util.logging.config.file" value="WEB-INF/logging.properties"/>
+        <property name="sendgridUser" value=""/>
+        <property name="sendgridPassword" value=""/>
+        <property name="mailgunApikey" value=""/>
+        <property name="mailgunServer" value=""/>
+    </system-properties>
+</appengine-web-app>
